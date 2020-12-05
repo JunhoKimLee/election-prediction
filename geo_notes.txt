@@ -1,0 +1,10 @@
+proximity to red/blue hotspots
+if other counties around it are majority blue/red then they will also be blue/red
+add a feature to each element that represents proximity to red/blue
+- look at the neighboring counties; count up red and blue and give it a summation score
+- must figure out labels of neighboring counties
+
+when evaluating test element, look up neighboring FIPS that we know the label of and assign test element a red/blue affinity score
+how to take this scalar and tweak a neural network? before predicting xTe, i can add a feature to each element that holds the red/blue geographic affinity. then i must add feature to xTr: a normalized value between 1 and -1 which is the label
+
+parameter: normalized scalar between 1 and -1 that says known neighbors of a political affiliation
