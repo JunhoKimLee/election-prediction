@@ -1,0 +1,4 @@
+kaggle results
+
+submission_basic.csv: 0.72285
+submission_creative.csv: 0.75103
